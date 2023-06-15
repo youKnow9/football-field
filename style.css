@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff3ca;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F57328;
+}
+
+#ball {
+    background-color: rgb(217, 228, 228);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 370px; 
+    left: 585px;
+    transform: translate(-100%, -50%);
+    transition: 0.5s linear;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.filed {
+    background-color: rgb(7, 51, 16);
+    width: 1110px;
+    height: 740px;
+    position: relative;
+    background-image: url(img/field.png);
+}
+
+.goal {
+    margin-left: 330px;
+    text-transform: uppercase;
+}
+
+.score {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#wrapper {
+    display: flex;
+    margin-left: 30px;
+}
